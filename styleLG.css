@@ -1,0 +1,51 @@
+        * {
+            box-sizing: border-box;
+        }
+
+        #container {
+            border: 1px solid black;
+            margin: auto;
+        }
+
+        #board {
+            width: auto;
+            height: auto;
+            margin: 10px;
+            display: table;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        #menu {
+            width: 400px;
+            height: 40px;
+            margin: 10px auto;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .cells {
+            border: 1px solid gray;
+            width: 15px;
+            height: 15px;
+            float: left;
+            display: table-cell;
+            background-color: white;
+        }
+
+        .rows {
+            overflow: hidden;
+        }
+
+/*        셀의 상태값을 위한 data value*/
+        div[data-x="1"] {
+            background-color: black;
+        }
+
+        div[data-x="0"] {
+            background-color: white;
+        }
